@@ -3,7 +3,7 @@
     "name": "bsky-shortcuts",
     "author": "Matt Buresh",
     "homepage_url": "https://github.com/mattburesh/bsky-shortcuts",
-    "version": "0.6.3",
+    "version": "0.7.0",
     "description": "Adds keyboard shortcuts to bsky.app",
     "icons": {},
     "content_scripts": [

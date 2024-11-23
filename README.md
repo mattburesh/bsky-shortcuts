@@ -1,6 +1,6 @@
 # bsky-shortcuts 
 
-A Firefox extension for adding shortcuts to bsky.app.
+A browser extension for adding shortcuts to bsky.app.
 
 ## Install
 

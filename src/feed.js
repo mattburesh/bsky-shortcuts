@@ -83,7 +83,12 @@ export class Feed {
     loadNewPosts() {
         let loadPostsButton =
             document.querySelector('[aria-label*="Load new posts"]') ?? null
-        if (loadPostsButton) loadPostsButton.click()
+        if (loadPostsButton) {
+            loadPostsButton.click()
+            this.previousPost = this.currentPost
+            this.currentPost = null
+            this.toggleCurrentPostHighlight()
+        }
     }
 
     moveToNextPost() {
