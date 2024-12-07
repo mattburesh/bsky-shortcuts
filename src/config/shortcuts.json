@@ -1,15 +1,15 @@
 {
     "shortcuts": {
-        "nextPost": "KeyJ",
-        "previousPost": "KeyK",
-        "likePost": "KeyL",
-        "replyToPost": "KeyR",
-        "cycleFeed": "KeyC",
-        "newPost": "KeyN",
-        "expandPhoto": "KeyO",
+        "nextPost": "j",
+        "previousPost": "k",
+        "likePost": "l",
+        "replyToPost": "r",
+        "cycleFeed": "c",
+        "newPost": "n",
+        "expandPhoto": "o",
         "openPost": "Enter",
-        "focusSearch": "Slash",
-        "loadMore": "Period"
+        "focusSearch": "/",
+        "loadMore": "."
     },
     "behaviors": {
         "scrollBehavior": "smooth",

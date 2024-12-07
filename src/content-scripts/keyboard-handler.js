@@ -9,7 +9,11 @@ export default class KeyboardShortcutManager {
     }
 
     handleKeyEvent(event) {
-        const mapping = this.actionMap[event.code];
+        // make sure keys like Enter aren't converted to lower case
+        const key = event.key;
+        const normalizedKey = /^[a-zA-Z]$/.test(key) ? key.toLowerCase() : key;
+
+        const mapping = this.actionMap[normalizedKey];
         if (!mapping) return;
 
         if (this.shouldPreventShortcut(event, mapping.allowedModifiers)) return;
